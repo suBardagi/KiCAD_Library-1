@@ -1672,7 +1672,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "KiCad:QFN50P500X500X100-33M-D"
+		(property "Footprint" "KiCAD_Library-N1-V1.0:QFN50P500X500X100-33M-D"
 			(at 36.83 -69.52 0)
 			(effects
 				(font
