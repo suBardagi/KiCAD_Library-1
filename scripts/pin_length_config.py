@@ -3,7 +3,7 @@ import re
 infile = r"C:\Users\User\Desktop\efe\KiCAD_Libraries\symbols\Library-N1-Gate-Driver.kicad_sym"
 outfile = r"C:\Users\User\Desktop\efe\KiCAD_Libraries\symbols\Library-N1-Gate-Driver.kicad_sym"
 
-symbol_prefix = "UCC21550ADWR"
+symbol_prefix = input("Enter component prefix from symbol library: ")
 new_length = 2.54  # mm
 
 inside_target_symbol = False
