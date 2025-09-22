@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U?"
-			(at 2.286 4.318 0)
+			(at -14.478 12.446 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "PUCC5350MCQDWVQ1"
-			(at 19.304 7.366 0)
+			(at -0.508 16.002 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "DWV0008A-IPC_A"
-			(at 19.304 10.16 0)
+			(at -0.508 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc5350-q1"
-			(at 19.304 7.366 0)
+			(at -0.508 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,32 +81,8 @@
 			)
 		)
 		(symbol "PUCC5350MCQDWVQ1_0_1"
-			(polyline
-				(pts
-					(xy 17.78 3.81) (xy 17.78 -19.05)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20.32 3.81) (xy 20.32 -19.05)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
-				(at 1.27 -1.27 0)
+				(at -17.78 7.62 0)
 				(length 2.54)
 				(name "VCC1"
 					(effects
@@ -124,7 +100,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -6.35 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -142,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -11.43 0)
+				(at -17.78 -2.54 0)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -160,7 +136,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -16.51 0)
+				(at -17.78 -7.62 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -178,7 +154,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 -1.27 180)
+				(at 17.78 7.62 180)
 				(length 2.54)
 				(name "VCC2"
 					(effects
@@ -196,7 +172,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -6.35 180)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -214,7 +190,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -11.43 180)
+				(at 17.78 -2.54 180)
 				(length 2.54)
 				(name "CLAMP"
 					(effects
@@ -232,7 +208,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 -16.51 180)
+				(at 17.78 -7.62 180)
 				(length 2.54)
 				(name "VEE2"
 					(effects
@@ -252,14 +228,47 @@
 		)
 		(symbol "PUCC5350MCQDWVQ1_1_1"
 			(rectangle
-				(start 3.81 3.81)
-				(end 34.29 -19.05)
+				(start -15.24 10.16)
+				(end 15.24 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
-					(type background)
+					(type color)
+					(color 255 255 194 0.7)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 10.16) (xy -3.302 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 10.16) (xy 3.556 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Isolation Barrier"
+				(at 0 0.254 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
@@ -636,6 +645,50 @@
 				(fill
 					(type color)
 					(color 255 255 194 0.7)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 12.7) (xy -2.54 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.286) (xy 2.54 2.286) (xy 2.54 12.7)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -4.318) (xy 2.54 -4.318) (xy 2.54 -15.113)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Isolation Barrier"
+				(at 0 -1.016 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
