@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q?"
-			(at 10.16 -2.54 0)
+			(at 5.08 0 0)
 			(effects
 				(font
 					(size 3.5306 3.5306)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "IMZA65R050M2H"
-			(at 10.668 -8.128 0)
+			(at 5.588 -5.588 0)
 			(effects
 				(font
 					(size 3.5306 3.5306)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Drain, 2 Power Source,  3 Driver Source, 4 Gate, 4 Pins"
-			(at -1.016 11.684 0)
+			(at 0.762 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(symbol "IMZA65R050M2H_1_0"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 2.032 -2.54)
+					(xy -5.08 0) (xy -3.048 0)
 				)
 				(stroke
 					(width 0.254)
@@ -66,7 +66,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 -0.254) (xy 2.032 -4.826)
+					(xy -3.048 2.286) (xy -3.048 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -78,7 +78,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -0.254) (xy 2.54 -1.27)
+					(xy -2.54 2.286) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -90,7 +90,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 4.064 -3.048) (xy 4.064 -2.032)
+					(xy -2.54 0) (xy -1.016 -0.508) (xy -1.016 0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -102,7 +102,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -3.048) (xy 2.54 -2.032)
+					(xy -2.54 -0.508) (xy -2.54 0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -114,7 +114,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -4.826) (xy 2.54 -3.81)
+					(xy -2.54 -2.286) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -126,7 +126,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -7.62) (xy 0 -7.62)
+					(xy -2.54 -5.08) (xy -5.08 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -138,7 +138,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 7.62 0)
+					(xy 0 2.54) (xy 2.54 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -150,7 +150,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -0.762) (xy 2.54 -0.762)
+					(xy 0 1.778) (xy -2.54 1.778)
 				)
 				(stroke
 					(width 0.254)
@@ -162,7 +162,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -0.762) (xy 5.08 0)
+					(xy 0 1.778) (xy 0 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -174,7 +174,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 2.54 -2.54)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -186,7 +186,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
+					(xy 0 0) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -198,7 +198,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -4.318) (xy 2.54 -4.318)
+					(xy 0 -1.778) (xy -2.54 -1.778)
 				)
 				(stroke
 					(width 0.254)
@@ -210,7 +210,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -5.08) (xy 2.54 -7.62)
+					(xy 0 -2.54) (xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -222,7 +222,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -5.08) (xy 7.62 -5.08)
+					(xy 0 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -234,7 +234,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.604 -1.778) (xy 8.636 -1.778)
+					(xy 1.524 0.762) (xy 3.556 0.762)
 				)
 				(stroke
 					(width 0.254)
@@ -246,7 +246,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.604 -3.302) (xy 8.636 -3.302)
+					(xy 1.524 -0.762) (xy 3.556 -0.762)
 				)
 				(stroke
 					(width 0.254)
@@ -258,7 +258,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 0) (xy 7.62 -5.08)
+					(xy 2.54 2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -270,7 +270,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -1.778) (xy 6.604 -3.302)
+					(xy 2.54 0.762) (xy 1.524 -0.762)
 				)
 				(stroke
 					(width 0.254)
@@ -282,7 +282,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.636 -3.302) (xy 7.62 -1.778)
+					(xy 3.556 -0.762) (xy 2.54 0.762)
 				)
 				(stroke
 					(width 0.254)
@@ -293,7 +293,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "GATE"
 					(effects
@@ -311,7 +311,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -7.62 0)
+				(at -10.16 -5.08 0)
 				(length 5.08)
 				(name "SOURCE2"
 					(effects
@@ -329,7 +329,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 5.08 270)
+				(at 0 7.62 270)
 				(length 5.08)
 				(name "DRAIN"
 					(effects
@@ -347,7 +347,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -10.16 90)
+				(at 0 -7.62 90)
 				(length 5.08)
 				(name "SOURCE1"
 					(effects

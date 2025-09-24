@@ -24,7 +24,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mosfets:TO247-4-Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
