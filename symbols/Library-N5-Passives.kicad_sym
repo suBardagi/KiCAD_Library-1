@@ -27,7 +27,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-PD-1030P"
+		(property "Footprint" "Passives:L_Wurth_WE-PD-6033R"
 			(at 12.7 20.32 0)
 			(effects
 				(font
