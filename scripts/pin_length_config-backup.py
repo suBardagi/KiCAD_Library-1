@@ -1,22 +1,7 @@
 import re
-import tkinter as tk
-from tkinter import filedialog
 
-# Open a file picker dialog
-root = tk.Tk()
-root.withdraw()  # hide the main tkinter window
-infile = filedialog.askopenfilename(
-    title="Select a KiCad symbol libary file",
-    filetypes=[("KiCad symbol library", "*.kicad_sym"), ("All files", "*.*")]
-)
-
-if not infile:
-    print("No file selected. Exiting.")
-    exit()
-
-# Output file (adds -fixed before extension)
-outfile = infile.replace(".kicad_sym", ".kicad_sym")
-
+infile = r"C:\Users\User\Desktop\efe\KiCAD_Libraries\symbols\Library-N1-Gate-Driver.kicad_sym"
+outfile = r"C:\Users\User\Desktop\efe\KiCAD_Libraries\symbols\Library-N1-Gate-Driver.kicad_sym"
 
 symbol_prefix = input("Enter component prefix from symbol library: ")
 new_length = 2.54  # mm
