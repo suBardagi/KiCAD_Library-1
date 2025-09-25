@@ -1076,8 +1076,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 16.764 0)
+		(property "Reference" "U?"
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Value" "UCC5320SCDWV"
-			(at 0 14.224 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1093,7 +1093,7 @@
 			)
 		)
 		(property "Footprint" "DWV0008A"
-			(at 2.032 22.098 0)
+			(at 1.27 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1103,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc5320"
-			(at 2.032 22.098 0)
+			(at 1.27 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,8 +1295,8 @@
 		)
 		(symbol "UCC5320SCDWV_1_1"
 			(rectangle
-				(start -15.24 12.7)
-				(end 15.24 -12.7)
+				(start -15.24 10.668)
+				(end 15.24 -10.922)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1307,7 +1307,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.302 12.7) (xy -3.302 -12.7)
+					(xy -3.302 10.668) (xy -3.302 -10.922)
 				)
 				(stroke
 					(width 0)
@@ -1319,7 +1319,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 12.7) (xy 3.556 -12.7)
+					(xy 3.556 10.668) (xy 3.556 -10.922)
 				)
 				(stroke
 					(width 0)
