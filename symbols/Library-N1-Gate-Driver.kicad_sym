@@ -457,7 +457,7 @@
 		)
 		(symbol "PUCC5350MCQDWVQ1_0_1"
 			(pin power_in line
-				(at -17.78 7.62 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VCC1"
 					(effects
@@ -475,7 +475,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -493,7 +493,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -511,7 +511,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -529,7 +529,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 7.62 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "VCC2"
 					(effects
@@ -547,7 +547,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -565,7 +565,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 17.78 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "CLAMP"
 					(effects
@@ -583,7 +583,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "VEE2"
 					(effects
@@ -603,8 +603,8 @@
 		)
 		(symbol "PUCC5350MCQDWVQ1_1_1"
 			(rectangle
-				(start -15.24 10.16)
-				(end 15.24 -10.16)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
